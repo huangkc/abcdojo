@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Index Page</title>
+    <style>
+       #map {
+        width: 100%;
+        height: 280px;
+      }
+      html {
+    /*font-family: GillSans, Calibri, Trebuchet, sans-serif;*/
+  }
+    </style>
+</head>
+	<body>
+
+      <script>
+      function initMap() {
+        var myCenter = {lat: 37.934802, lng: -122.308582};
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: myCenter,
+            zoom: 8,
+        });
+        var marker = new google.maps.Marker({
+        position: myCenter,
+        map: map,
+        title: '2550 Tamalpais Avenue El Cerrito CA 94530'
+        });
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkGLT05AiqH5PAqdTUt83prNqXbEGu2Z4&callback=initMap">
+    </script>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        
+        <h1 class="header center teal-text text-lighten-2"></h1>
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+        <div class="row center"></div>
+      </div>
+    </div>
+    <div class="parallax"><img src="imgs/doshu15.jpeg">
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- <div class="section"> -->
+    <!-- <div class="row">
+        <div class="col s12">
+          <h5 class="red-text">WELCOME TO ABC AIKIDO</h5>
+          <h6 class="light"><p>We are dedicated to promote training in the Japanese martial art of Aikido according to the principles taught by the founder, Morihei Ueshiba. Under the guidance of Shihan Yoshimitsu Yamada, Chief Instructor of the United States Aikido Federation (USAF), ABC Aikido maintains direct ties to the Aikikai Hombu Dojo (World Headquarters) in Tokyo, Japan. We work on developing clean technique through vigorous flowing practice as well as harmonizing mind and body through meditation and breathing.</p>
+          
+          <p>Carefully hidden away within the heart of San Francisco's historic Downtown district, ABC Aikido offers all the convenience of the big city while preserving the more reserved nature of a traditional dojo. Visitors will be engaged by a helpful senior staff and will find our dojo community to be welcoming and ready to train!</p>
+
+          </h6>
+        </div>
+    </div>
+ -->
+    <!-- </div> -->
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m12">
+          <!-- <div class="icon-block"> -->
+            <!-- <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2> -->
+          <h5 class="red-text">WELCOME TO ABC AIKIDO</h5>
+
+            <p>ABC Aikido is a traditional dojo dedicated to promote training in the Japanese martial art of Aikido according to the principles taught by the founder Morihei Ueshiba. Under the guidance of Shihan Yoshimitsu Yamada, Chief Instructor and Technical Adviser of the <a href="www.usaikifed.com">United States Aikido Federation</a>, we work on harmonizing mind and body and developing clean technique through vigorous flowing practice. We strive to make all members comfortable in their individual commitment and progression through this beautiful and dynamic martial art.</p> 
+            <p>ABC Aikido maintains direct ties to the <a href="www.aikikai.or.jp/eng/">Aikikai Hombu Dojo</a> in Tokyo, Japan. Aikido practitioners with all levels of experience are welcome to train with us. Call, email, or stop by the dojo during class hours for more information.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <!-- <h2 class="center light-blue-text"><i class="material-icons">group</i></h2> -->
+            <!-- <h5 class="center">HEADING</h5> -->
+
+            <!-- <h5 class="light"> Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus.     </h5> -->
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <!-- <div class="icon-block"> -->
+            <!-- <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2> -->
+            <!-- <h5 class="center">HEADING</h5> -->
+
+            <h5 class="light">
+
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. . -->
+            </h5>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s6 left">
+          <div id="map" class="responsive-img"></div>
+        </div>
+        <div class="col s6 left">
+          <p>
+              2550 Tamalpais Avenue</br>
+              El Cerrito, CA 94530</br>  
+              (917) 518-6181</br>
+              abcdojo@gmail.com
+            </br>
+          </p>
+        </div>  
+      </div>
+    </div>
+    </div>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header center teal-text text-lighten-2"></h1>
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+        <div class="row center"></div>
+      </div>
+    </div>
+    <div class="parallax"><img src="imgs/okamoto4.jpg">
+    </div>
+  </div> 
+  </body>
+</html>
